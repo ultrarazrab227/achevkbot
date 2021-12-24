@@ -191,7 +191,7 @@ for event in longpoll.listen():
             elif request == 'окей':
                 write_msg(event.user_id, 'ты гей')
             elif ((((((((((((((
-                                      request == 'ты тупой' or request == 'ты дебил') or request == 'ты дурак') or request == 'ты дурачок') or request == 'ты сука') or request == 'ты манда') or request == 'ты блядун') or request == 'ты соси') or request == 'ты хуй соси') or request == 'ты соси хуй') or request == 'ты сучка') or request == 'ты говно') or request == 'ты залупа') or request == 'ты пенис') or request == 'ты хер') or request == 'ты мудак':
+                                      'ты тупой' in request or 'ты дебил' in request) or 'ты дурак' in request) 'ты дурачок' in request) or 'ты сука' in request) or request == 'ты манда') or request == 'ты блядун') or request == 'ты соси') or request == 'ты хуй соси') or request == 'ты соси хуй') or request == 'ты сучка') or request == 'ты говно') or request == 'ты залупа') or request == 'ты пенис') or request == 'ты хер') or request == 'ты мудак':
                 if random.randint(1, 4) == 1:
                     write_msg(event.user_id, 'не обидно нихуя')
                 elif random.randint(1, 4) == 2:
@@ -200,7 +200,7 @@ for event in longpoll.listen():
                     write_msg(event.user_id, 'не обзывайся бл😭')
                 else:
                     write_msg(event.user_id, 'кто обзывается сам так называется ахахахах')
-            elif request == 'ты дебил':
+            elif 'дебил' in request:
                 if random.randint(1, 5) == 1:
                     write_msg(event.user_id, 'не обидно нихуя')
                 elif random.randint(1, 5) == 2:
@@ -212,7 +212,7 @@ for event in longpoll.listen():
                 else:
                     write_msg(event.user_id, 'ты дебил')
             elif ((
-                          request == 'ты туз' or request == 'ты головка') or request == 'ты жопа') or request == 'ты еблан' or request == 'ты петух' or request == 'ты питух' or request == 'ты мудила' or request == 'ты рукаблуд' or request == 'ты рукоблуд' or request == 'ты ссанина' or request == 'ты санина' or request == 'ты очко' or request == 'ты вагина' or request == 'ты ебланище' or request == 'ты влагалище' or request == 'ты пердун' or request == 'ты дрочила' or request == 'ты малафья' or request == 'ты гомик' or request == 'ты анус' or request == 'ты путана' or request == 'ты педрила' or request == 'ты пидрила' or request == 'ты мошонка' or request == 'ты елда' or request == 'ты хуила' or request == 'ты даун' or request == 'ты гей' or request == 'ты пидор' or request == 'ты пидорас' or request == 'ты пидарас':
+                          'ты туз' in request or 'ты головка' in request) or 'ты жопа' in request) or 'ты еблан' in request or 'ты петух' in request or 'ты питух' in request or 'ты мудила' in request or 'ты рукаблуд' in request or 'ты рукоблуд' in request or 'ты ссанина' in request or 'ты санина' in request or 'ты очко' in request or 'ты вагина' in request or 'ты ебланище' in request or 'ты влагалище' in request or 'ты пердун' in request or 'ты дрочила' in request or 'ты малафья' in request or 'ты гомик' in request or 'ты анус' in request or 'ты путана' in request or 'ты педрила' in request or 'ты пидрила' in request or 'ты мошонка' in request or 'ты елда' in request or 'ты хуила' in request or 'ты даун' in request or 'ты гей' in request or 'ты пидор' in request or 'ты пидорас' in request or 'ты пидарас' in request:
                 if random.randint(1, 4) == 1:
                     write_msg(event.user_id, 'не обидно нихуя')
                 elif random.randint(1, 4) == 2:
@@ -221,7 +221,7 @@ for event in longpoll.listen():
                     write_msg(event.user_id, 'не обзывайся бл😭')
                 else:
                     write_msg(event.user_id, 'кто обзывается сам так называется ахахахах')
-            elif request == 'ты чё' or request == 'ты че' or request == 'ты чо':
+            elif 'ты чё' in request or 'ты че' in request or 'ты чо' in request:
                 write_msg(event.user_id, 'я ничё а ты чё')
             elif 'блин' in request:
                 write_msg(event.user_id, 'не блинкай блять')
@@ -229,11 +229,11 @@ for event in longpoll.listen():
                 write_msg(event.user_id, 'блин')
             elif request == 'не блинкай':
                 write_msg(event.user_id, '😢😢😢ок бл....(((((')
-            elif request == 'ответь':
+            elif 'ответь' in request:
                 write_msg(event.user_id, 'а ты мне что')
             elif request == 'пожалуйста':
                 write_msg(event.user_id, 'спасибо')
-            elif request == 'спасибо' or request == 'спс':
+            elif 'спасибо' in request or 'спс' in request:
                 if random.randint(1, 2) == 1:
                     write_msg(event.user_id, 'незачто ебать')
                 else:
@@ -242,7 +242,7 @@ for event in longpoll.listen():
                 write_msg(event.user_id, 'значит вспомни кто ты такой бля по жизни и станет обидно')
             elif request == 'сам такой епта' or request == 'сам такой ёпта':
                 write_msg(event.user_id, 'ты пытаешься бота обидеть шизик?')
-            elif request == 'кто ты?':
+            elif 'кто ты?' in request:
                 if random.randint(1, 3) == 1:
                     write_msg(event.user_id, 'а кто ты')
                 elif random.randint(1, 3) == 2:
@@ -254,16 +254,9 @@ for event in longpoll.listen():
                     write_msg(event.user_id, 'шкаф нахуй')
                 else:
                     write_msg(event.user_id, 'шкаф я')
-            elif request == 'епта' or request == 'ёпта':
+            elif 'епта' in request or 'ёпта' in request:
                 write_msg(event.user_id, 'епта че как быдло разговариваешь епта епта как из падика вылез епта')
             elif request == 'быдло':
                 write_msg(event.user_id, 'извини бро жизнь сделала меня таким грубым')
             elif request == 'а':
                 write_msg(event.user_id, 'б')
-            else:
-                if random.randint(1, 3) == 1:
-                    write_msg(event.user_id, 'нихуя не понятно пиши понятнее')
-                elif random.randint(1, 3) == 2:
-                    write_msg(event.user_id, 'бля пиши нормально нихуя не понимаю')
-                else:
-                    write_msg(event.user_id, 'ааааа да сука не понятно нихуя')
