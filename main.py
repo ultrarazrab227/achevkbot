@@ -191,7 +191,8 @@ for event in longpoll.listen():
             elif request == 'окей':
                 write_msg(event.user_id, 'ты гей')
             elif ((((((((((((((
-                                      'ты тупой' in request or 'ты дебил' in request) or 'ты дурак' in request) 'ты дурачок' in request) or 'ты сука' in request) or request == 'ты манда') or request == 'ты блядун') or request == 'ты соси') or request == 'ты хуй соси') or request == 'ты соси хуй') or request == 'ты сучка') or request == 'ты говно') or request == 'ты залупа') or request == 'ты пенис') or request == 'ты хер') or request == 'ты мудак':
+                                      'ты тупой' in request or 'ты дебил' in request) or 'ты дурак' in request) or
+                                     'ты дурачок' in request) or 'ты сука' in request) or request == 'ты манда') or request == 'ты блядун') or request == 'ты соси') or request == 'ты хуй соси') or request == 'ты соси хуй') or request == 'ты сучка') or request == 'ты говно') or request == 'ты залупа') or request == 'ты пенис') or request == 'ты хер') or request == 'ты мудак':
                 if random.randint(1, 4) == 1:
                     write_msg(event.user_id, 'не обидно нихуя')
                 elif random.randint(1, 4) == 2:
